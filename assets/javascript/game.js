@@ -5,9 +5,12 @@ var gem2;
 var gem3;
 var gem4;
 
-var wins = 0
-var losses = 0
-var totalScore = 0
+var wins = 0;
+$("#wins").text("Wins: " + wins);
+var losses = 0;
+$("#loss").text("Losses: " + losses);
+
+var totalScore = 0;
 
 function reset() {
 	targetScore = Math.floor(Math.random() * (120 - 19)) + 19;

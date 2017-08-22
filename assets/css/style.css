@@ -1,0 +1,22 @@
+.jumbotron {
+	margin: 20px;
+	border: 4px solid black;
+	padding: 20px;
+	text-align: center;
+}
+
+#targetScore,
+.scoreboard,
+.totalScore {
+	margin: 20px;
+	float: left;
+}
+
+#gem1,
+#gem2,
+#gem3,
+#gem4 {
+	float: left;
+	padding: 8px;
+}
+
